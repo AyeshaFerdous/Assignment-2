@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,3 +9,271 @@
 body{
     font-family: "Inter", sans-serif;
 }
+
+/* shared styles */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.primary-color{
+    color: rgba(255, 255, 255, 0.5);
+}
+.display-flex{
+    display: flex;
+}
+
+.btn-primary{
+    color: rgb(255, 255, 255);
+   font-size: 1.12rem;
+   font-weight: 600;
+   border: none;
+   background: rgb(230, 83, 60);
+}
+main{
+    background-color: black;
+}
+.section-title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.section-subtitle{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 24px;
+    
+}
+/* header starts */
+#header-bg{
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: overlay;
+    
+}
+/* nav section starts */
+.navbar{
+  
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.nav-title{
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.nav-list-items{
+ 
+    align-items: center;
+    gap: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+
+
+
+.nav-list-items .nav-list{
+    list-style: none;
+    margin-right: 10px;
+}
+.nav-list-items .nav-item{
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+}
+.nav-list-items #home{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 10px 22px 10px 22px;
+    font-weight: 600;
+}
+ul .hamburg-list{
+    list-style: none;
+}
+ul .hamburg-item{
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+}
+
+#hamburg-menu{
+   display: none;
+}
+
+/* nav section ends */
+
+
+/* banner-section starts */
+.banner{
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 600px;
+}
+.banner-content h1{
+   
+    color: rgb(255, 255, 255);
+    font-size: 4.875rem;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+.banner-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+.banner-btn{
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+}
+.download-app-btn{
+    color: rgb(255, 255, 255); 
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    background-color: transparent;
+    margin: 0 16px;
+
+}
+#shape{
+    font-family: "Playwrite HR", cursive;
+}
+.banner-img img{
+    width: 100%;
+}
+#badge-1{
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: relative;
+    top: -130px;
+    right: -350px;
+}
+.badge-1-desc #badge-1-title{
+    color: rgb(250, 250, 249);
+   font-size: 2.5rem;
+   font-weight: 900;
+}
+.box{
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+#badge-2{
+    display: flex;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+   position: relative;
+   top: 150px;
+   left: -380px;
+}
+.badge-2-desc{
+    display: flex;
+    flex-direction: column;
+
+}
+.badge-2-desc #badge-2-title{
+    color: rgb(250, 250, 249);
+   font-size: 1.5rem;
+   font-weight: 900;
+}
+/* banner-section ends */
+
+/* change your habit section starts */
+#change-habits{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+.card-img img{
+    width: 100%;
+    border-radius: 50%;
+    padding: 16px;
+}
+.card-content{
+    padding: 16px;
+}
+.card h4{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card p{
+    text-align: center;
+}
+
+/* change your habit section ends */
+
+/* extra mile section starts here*/
+#extra-mile{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+  .extra-mile-section-container{
+    gap: 50px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .extra-mile-content{
+    width: 600px;
+    padding: 45px;
+   
+  }
+  .extra-mile-content h3{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+  }
+  .extra-mile-content p{
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+  .extra-mile-btn{
+    padding: 16px 40px;
+    border-radius: 42px;
+  }
+  .extra-mile-img{
+    width: 600px;
+    padding: 45px;
+    
+  }
+  .extra-mile-img img{
+    width: 100%;
+    border-radius: 20px;
+  }
+/* extra mile section ends here*/
+
+/* bmi-calculator section starts here */
+.bmi-calculator-title-section{
+    width: 600px;
+    margin: 0 auto;
+}
+.title{
+    text-align: left;
+}
+.subtitle{
+    text-align: left;
+}
+#bmi-calculator{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/* bmi-calculator section ends here */
+
