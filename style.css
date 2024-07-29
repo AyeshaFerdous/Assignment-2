@@ -263,8 +263,10 @@ ul .hamburg-item{
 
 /* bmi-calculator section starts here */
 .bmi-calculator-title-section{
-    width: 600px;
+    width: 70%;
     margin: 0 auto;
+    margin-bottom: 80px;
+    
 }
 .title{
     text-align: left;
@@ -274,6 +276,89 @@ ul .hamburg-item{
 }
 #bmi-calculator{
     background-color: rgba(255, 255, 255, 0.1);
+}
+.bmi-calculator-container{
+   padding: 28px 0;
+}
+.bmi-calculator-chart{
+    width: 50%;
+    
+}
+.bmi-calculator-chart h1{
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 52px;
+}
+.bmi-calculator-chart table,th,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 18px;
+}
+.bmi-calculator-chart th{
+    color: rgb(255, 255, 255);
+   font-size: 1rem;
+   font-weight: 500;
+   text-align: left;
+}
+.bmi-calculator-chart td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.calculate-your-bmi{
+    width: 50%;
+    
+}
+.calculate-your-bmi h1{
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 24px;
+}
+.calculate-your-bmi p{
+    
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.calculate-your-bmi form{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);    
+}
+.calculate-your-bmi .input-field{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.calculate-your-bmi .input-wrapper{
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+   outline: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+  
+}
+.calculate-your-bmi #activity-bar{
+   padding: 12px 20px 12px 20px;
+   width: 100%;
+   margin: 20px 0;
+   border-radius: 8px;
+   background: rgba(255, 255, 255, 0.1);
+   color: rgba(255, 255, 255, 0.6);
+   border: none;
+   outline: none;
+   font-size: 1rem;
+}
+.form-btn{
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    margin-top: 24px;
 }
 /* bmi-calculator section ends here */
 
