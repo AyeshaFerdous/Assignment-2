@@ -96,8 +96,16 @@
       
         
     }
-    
-   
+    .footer-section{
+        flex-direction: column;
+    }
+   .footer-heading{
+    width: 100%;
+    margin-bottom: 24px;
+   }
+   .footer-copyright{
+    text-align: left;
+   }
 }
 @media screen and (min-width:576px) and (max-width: 992px) {
     .container{
@@ -153,6 +161,17 @@
     .calculate-your-bmi{
         width: 100%;
         
+    }
+    .footer-section{
+        flex-wrap: wrap;
+        
+    }
+    .footer-heading{
+        width: 75%;
+        margin-bottom: 102px;
+    }
+    .footer-contact{
+      margin-right: 162px;
     }
     
 }

@@ -411,3 +411,59 @@ ul .hamburg-item{
 }
 
 /* make our team section ends here */
+
+/* footer section starts here */
+footer{
+    background-color: rgba(0,0,0,0.9);
+    padding: 60px 0;
+   
+}
+.footer-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    padding-bottom: 50px;
+}
+
+.footer-heading{
+    width: 33.33%;
+}
+
+.footer-title{
+    font-size: 4.37rem;
+}
+.footer-subtitle{
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 24px;
+}
+.footer-service ul li{
+    list-style-type: none;
+}
+.list-title{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+.list-items{
+    color: rgba(255, 255, 255, 0.5);
+   font-size: 1.44rem;
+   font-weight: 400;
+   margin-bottom: 20px;
+}
+.footer-contact ul li{
+    list-style-type: none;
+}
+.hr-line{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.footer-copyright{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 52px;
+}
+/* footer section ends here */
