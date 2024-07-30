@@ -1,7 +1,7 @@
 @media screen and (max-width: 576px){
     .container{
         width: 100%;
-        padding: 24px;
+        padding: 0 20px;
     }
     .nav-list-items{
         display: none;
@@ -91,6 +91,13 @@
     .calculate-your-bmi .input-field{
         width: 100%;
     }
+    .team-img-container{
+        grid-template-columns: repeat(1, 1fr);
+      
+        
+    }
+    
+   
 }
 @media screen and (min-width:576px) and (max-width: 992px) {
     .container{
