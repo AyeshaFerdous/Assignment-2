@@ -106,6 +106,19 @@
    .footer-copyright{
     text-align: left;
    }
+   .offer-box{
+    flex-direction: column;
+    padding: 0 24px;
+   }
+   .offer-box-content{
+    width: 100%;
+   }
+   .offer-box-img{
+    width: 100%;
+   }
+   .offer-btn{
+    margin-bottom: 20px;
+   }
 }
 @media screen and (min-width:576px) and (max-width: 992px) {
     .container{
@@ -173,5 +186,14 @@
     .footer-contact{
       margin-right: 162px;
     }
-    
+    .offer-box{
+        gap: 20px;
+        padding: 0 24px;
+    }
+    .offer-box-content{
+        width: 70%;
+    }
+    .offer-box-img{
+        width: 80%;
+    }
 }

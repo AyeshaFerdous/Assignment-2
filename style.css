@@ -412,6 +412,93 @@ ul .hamburg-item{
 
 /* make our team section ends here */
 
+/* offer-section starts here */
+#offer-section{
+   padding-bottom: 80px;
+   
+}
+#offer-section .offer-subtitle{
+    margin-bottom: 70px;
+}
+.offer-box{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.offer-box-content{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.476);
+    border-radius: 22px;
+   margin: 24px 0;
+   padding: 24px ;
+}
+.offer-box-img{
+    width: 60%;
+    margin: 0 auto;
+}
+.offer-box-img img{
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 22px;
+
+}
+
+.offer-box-content p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 32px;
+    margin-bottom: 24px;
+   
+}
+.offer-box-form{
+   height: auto;
+   background-color: rgba(0, 0, 0, 0.476);
+   border-radius: 22px;
+   margin: 24px 0;
+}
+.offer-box-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+}
+.title-label{
+    font-size: 1.1rem;
+    color: white;
+   
+}
+
+.input-section{
+    width: 100%;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+   outline: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    margin-top: 12px;
+}
+.offer-btn-box{
+    text-align: center;
+}
+.offer-btn{
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    margin-top: 24px;
+}
+/* offer-section ends here */
+
+
+
+
+
+
+
+
+
 /* footer section starts here */
 footer{
     background-color: rgba(0,0,0,0.9);
@@ -466,4 +553,5 @@ footer{
     font-weight: 400;
     margin-top: 52px;
 }
+
 /* footer section ends here */
