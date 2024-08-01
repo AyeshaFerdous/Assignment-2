@@ -9,6 +9,8 @@
 body{
     font-family: "Inter", sans-serif;
     
+       
+    
 }
 
 /* shared styles */
@@ -31,7 +33,7 @@ body{
    background: rgb(230, 83, 60);
 }
 main{
-    background-color: black;
+   background-color: black;
 
 }
 .section-title{
@@ -50,8 +52,8 @@ main{
 }
 /* header starts */
 #header-bg{
-    background-color: rgba(0,0,0,0.8);
-    background-blend-mode: overlay;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-color: black;
     
 }
 /* nav section starts */
@@ -168,6 +170,14 @@ ul .hamburg-item{
     height: 40px;
     background: rgb(230, 83, 60);
     border-radius: 50%;
+    position: relative;
+}
+.play-icon{
+   color: white;
+   position: absolute;
+   top: 15px;
+   right: 12px;
+   display: none;
 }
 #badge-2{
     display: flex;
@@ -234,7 +244,7 @@ ul .hamburg-item{
     background-color: rgba(255, 255, 255, 0.1);
   }
   .extra-mile-content{
-    width: 600px;
+    width: 50%;
     padding: 45px;
    
   }
@@ -253,7 +263,7 @@ ul .hamburg-item{
     border-radius: 42px;
   }
   .extra-mile-img{
-    width: 600px;
+    width: 50%;
     padding: 45px;
     
   }

@@ -25,8 +25,11 @@
         right: -107px;
     }
     #badge-2{
-        top: -322px;
+        top: -276px;
         left: -100px;
+    }
+    .play-icon{
+        display: block;
     }
     .banner-img img{
         padding: 24px;
@@ -139,6 +142,7 @@
         top: 194px;
         right: -128px;
     }
+    
     #badge-2{
         top: -217px;
         left: -140px;
