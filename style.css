@@ -7,10 +7,7 @@
 }
 
 body{
-    font-family: "Inter", sans-serif;
-    
-       
-    
+    font-family: "Inter", sans-serif;    
 }
 
 /* shared styles */
@@ -53,7 +50,7 @@ main{
 /* header starts */
 #header-bg{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    background-color: black;
+    background-color: rgb(17, 17, 17);
     
 }
 /* nav section starts */
